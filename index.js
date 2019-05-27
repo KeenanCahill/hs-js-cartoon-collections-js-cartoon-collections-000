@@ -5,9 +5,8 @@ function dwarfRollCall(dwarves) {
     listDwarves.push(`${i+1}. ${dwarves[i]} `)
     
   }
-  return listDwarves.join(""); //The join() method joins all elements of an array (or an array-like object) into a string and returns this string.
+  return listDwarves.join(""); 
 }
-
 
 function summonCaptainPlanet(planeteerCalls){
   let uppercasePlaneteerCalls = [];
@@ -30,8 +29,6 @@ function longPlaneteerCalls(words) {
   }
   return false
 }
-
-
 
 function findTheCheese (foods) {
   
