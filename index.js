@@ -16,20 +16,15 @@ function summonCaptainPlanet(planeteerCalls){
   return uppercasePlaneteerCalls
 }
 function longPlaneteerCalls(words) {
-  
   for(let i = 0; i < words.length; i++){
-    
     if(words[i].length>4){
       return true
     }
   }
   return false
 }
-
 function findTheCheese (foods) {
-  
   for (var i = 0; i < foods.length; i++) {
-    
     if (foods[i] ===  'gouda'|| foods[i]===  'cheddar' || foods[i]==='camembert') {
       return foods[i];
     }
